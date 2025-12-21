@@ -3,6 +3,7 @@
   --color-two: #8261ee;
   --color-text: #fff;
   --color-text-two: #1e1e1e;
+  --color-text-three: #777;
 }
 ::selection {
   color:white;

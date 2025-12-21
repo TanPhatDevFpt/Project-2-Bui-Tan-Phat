@@ -169,6 +169,36 @@ header .innertext:hover {
 }
 /* end section2 item hover */
 
+/* section3 */
+.section3 {
+  padding-top: 100px;
+}
+/*end section3 */
+
+/* text section3 */
+.section3 .itemtext h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.section3 .itemtext p {
+  font-size: 16px;
+  color: var(--color-text-three);
+}
+/*end text section3 */
+
+/* section 3 img */
+.section3 .itemimg {
+  padding-bottom: 20px;
+}
+/*end section 3 img */
+
+/* hr section3 */
+.section3 .hr {
+  border-top: 0.01px solid #89898943;
+  margin-top: 100px;
+}
+/*end hr section3 */
+
 /* media 992px */
 @media (max-width: 992px) {
   header .innermenu {
