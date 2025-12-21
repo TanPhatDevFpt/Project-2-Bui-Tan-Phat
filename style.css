@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playwrite+NO:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* header innerboxheader */
+header .innerboxheader {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  height: 70px;
+  border-radius: 38px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+/* end header innerboxheader */
+
+/* header innermenu */
+header .innermenu {
+  flex-wrap: nowrap;
+  padding: 0px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  display: flex;
+  list-style-type: none;
+}
+/* end header innermenu */
+
+/* header innertext */
+header .innertext {
+  transition: 0.4s;
+  padding: 0 20px;
+  text-decoration: none;
+  color: var(--color-text-two);
+  font-weight: 500;
+}
+/* end header innertext */
+
+/* header innertext1 */
+header .innertext1 {
+  padding: 0 20px;
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--color-one);
+  font-weight: 500;
+}
+/* end header innertext1 */
+
+/* header innertext hover */
+header .innertext:hover {
+  color: var(--color-one);
+  transition: 0.4s;
+}
+/* end header innertext hover */
+
+/* section 1 */
+.section1 {
+  padding-top: 15%;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/banner-bg.png");
+  width: auto;
+  height: 100vh;
+}
+/* end section 1 */
+
+/* section 1 innertextbussiness */
+.section1 .innertextbusiness {
+  margin-bottom: 22px;
+  color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end section 1 innertextbussiness */
+
+/* section 1 innertextbusiness h1 */
+.section1 .innertextbusiness h1 {
+  font-size: 36px;
+  text-align: center;
+}
+/* end section 1 innertextbusiness h1 */
+
+/* section 1 innertextbusiness p */
+.section1 .innertextbusiness p {
+  text-align: center;
+  max-width: 600px;
+  font-size: 15px;
+}
+/* end section 1 innertextbusiness p */
+
+/* section1 innertextbusiness innerDiscoverMore */
+.section1 .innertextbusiness .innerDiscoverMore {
+  font-size: 15px;
+  background: #ff589e;
+  width: 170px;
+  height: 40px;
+  color: white;
+  font-weight: 400;
+  border: 0px;
+  border-radius: 40px;
+  transition: 0.6s;
+}
+/* end  section1 innertextbusiness innerDiscoverMore */
+
+/* innerDiscoverMore:hover */
+.section1 .innertextbusiness .innerDiscoverMore:hover {
+  background: var(--color-two);
+  transition: 0.6s;
+}
+/* end innerDiscoverMore:hover */
+
+/* itemicon */
+.section2 .itemicon {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  border-radius: 50px;
+  align-content: center;
+  background: var(--color-two);
+  height: 100px;
+  width: 100px;
+  transition: 0.5s;
+}
+/* end itemicon */
+
+/* section2 item */
+.section2 .item {
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* end section2 item */
+
+/* section2 h5 */
+.section2 .item h5 {
+  margin-bottom: 20px;
+}
+/* end section2 h5 */
+
+/* section2 boxheader */
+.section2 .boxheader {
+  margin-top: -200px;
+}
+/* end section2 boxheader */
+
+/* section2 item hover */
+.item1:hover .itemhover1 {
+  cursor: pointer;
+  background: var(--color-one);
+  transition: 0.5s;
+}
+.item2:hover .itemhover2 {
+  cursor: pointer;
+  background: var(--color-one);
+  transition: 0.5s;
+}
+.item3:hover .itemhover3 {
+  cursor: pointer;
+  background: var(--color-one);
+  transition: 0.5s;
+}
+.item:hover {
+  cursor: pointer;
+}
+/* end section2 item hover */
+
+/* media 992px */
+@media (max-width: 992px) {
+  header .innermenu {
+    display: none;
+  }
+  header .innerlogo {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* end media 992px */

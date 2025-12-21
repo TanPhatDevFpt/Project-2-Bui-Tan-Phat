@@ -1,0 +1,22 @@
+:root {
+  --color-one: #ff589e;
+  --color-two: #8261ee;
+  --color-text: #fff;
+  --color-text-two: #1e1e1e;
+}
+::selection {
+  background: #fe589d;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+header {
+  padding: 20px 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  top: 0px;
+  position: fixed;
+  padding: 20px 0;
+}
