@@ -5,6 +5,7 @@
   --color-text-two: #1e1e1e;
 }
 ::selection {
+  color:white;
   background: #fe589d;
 }
 body {
