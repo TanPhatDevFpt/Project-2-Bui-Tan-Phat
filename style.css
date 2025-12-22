@@ -125,6 +125,7 @@ header .innertext:hover {
 
 /* section2 item */
 .section2 .item {
+  margin-bottom: 27px;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -188,6 +189,7 @@ header .innertext:hover {
 
 /* section 3 img */
 .section3 .itemimg {
+  text-align: center;
   padding-bottom: 20px;
 }
 /*end section 3 img */
@@ -196,8 +198,27 @@ header .innertext:hover {
 .section3 .hr {
   border-top: 0.01px solid #89898943;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 /*end hr section3 */
+
+/* text section4 */
+.section4 .itemtext h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.section4 .itemtext p {
+  font-size: 16px;
+  color: var(--color-text-three);
+}
+/*end text section4 */
+
+/* section 4 img */
+.section4 .itemimg {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/*end section 4 img */
 
 /* media 992px */
 @media (max-width: 992px) {
