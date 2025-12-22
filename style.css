@@ -246,7 +246,7 @@ header .innertext:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  z-index: 2;
+  z-index: 1;
 }
 /*end section 5 background */
 
@@ -322,6 +322,96 @@ header .innertext:hover {
   height: auto;
 }
 /* end section 5 img */
+
+/* section 6 What do they say?*/
+.section6 .itemtext {
+  text-align: center;
+}
+.section6 .itemtext p {
+  margin-bottom: 40px;
+  color: var(--color-text-three);
+  font-size: 15px;
+}
+.section6 .itemtext h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 400;
+}
+.section6 .itemtext .innertext {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 480px;
+}
+/*end section 6 What do they say? */
+
+/* section 6 */
+.section6 {
+  padding: 80px 0;
+}
+/*end section 6 */
+
+/* section 6 boxmain */
+.section6 .innerboxmain {
+  margin-bottom: 20px;
+}
+/*end section 6 boxmain */
+
+/* section 6 box */
+.section6 .box {
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-direction: column;
+  display: flex;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 30px;
+}
+.section6 .box img {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 32px;
+  height: auto;
+}
+.section6 .box h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.section6 .box p {
+  font-size: 15px;
+  color: var(--color-text-three);
+}
+.section6 .box .innertext {
+  color: var(--color-one);
+}
+.section6 .box .itemtext {
+  text-align: left;
+  margin-left: 70px;
+}
+.section6 .box .itemtext2 {
+  display: flex;
+}
+.section6 .box .itemtext1 {
+  margin-top: auto;
+}
+.section6 .box .itemtext2 {
+  margin-left: 0px;
+}
+.section6 .box .itemtext3 {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+.section6 .box .itemimg {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/*end section 6 box */
 
 /* media 992px */
 @media (max-width: 992px) {
