@@ -143,6 +143,12 @@ header .innertext:hover {
 }
 /* end section2 h5 */
 
+/* section2 item p */
+.section2 .item p {
+  width: 101%;
+}
+/*end section2 item p */
+
 /* section2 boxheader */
 .section2 .boxheader {
   margin-top: -200px;
@@ -509,6 +515,114 @@ header .innertext:hover {
   margin-right: auto;
 }
 /*end section7 itemtext */
+
+/* section 8 */
+.section8 {
+  position: relative;
+  height: 30vh;
+  overflow: hidden;
+}
+.section8 .innerbox {
+  margin-top: 27%;
+  color: var(--color-text);
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section8 .box1::after {
+  left: -20%;
+  top: 35%;
+  content: "";
+  background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/circle-dec.png");
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.section8 .innerbox strong {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.section8:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/fun-facts-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 31vh;
+  width: 100%;
+  overflow: hidden;
+}
+/*end section 8 */
+
+/* section 9 */
+.section9 {
+  padding: 60px 0;
+}
+.section9 .innerbox {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+/*end section 9 */
+
+/* section 9 innertext */
+.section9 .innertext {
+  margin-top: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.section9 .innertext p {
+  color: var(--color-text-three);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.section9 .innertext h2 {
+  font-size: 28px;
+  font-weight: 480;
+}
+.section9 .innerbox a {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--color-text-two);
+  transition: 0.3s;
+  font-weight: 480;
+}
+.section9 .innerbox a:hover {
+  color: var(--color-one);
+  transition: 0.3s;
+}
+.section9 .innerbox p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  color: var(--color-text-three);
+}
+.section9 .innerbox .button {
+  font-size: 13px;
+  background: var(--color-two);
+  padding: 10px 0;
+  margin-left: 32%;
+  margin-right: 32%;
+  border-radius: 25px;
+  color: var(--color-text);
+}
+.section9 .innerbox .button:hover {
+  background: var(--color-one);
+  color: var(--color-text);
+}
+/*end section 9 innertext */
 
 /* media 992px */
 @media (max-width: 992px) {
