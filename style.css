@@ -413,6 +413,103 @@ header .innertext:hover {
 }
 /*end section 6 box */
 
+/* section 7 */
+.section7 {
+  padding: 60px 0;
+  background-color: var(--color-background);
+}
+
+.section7 .innerbox {
+  margin-bottom: 20px;
+  font-size: 13px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+}
+.section7 .innerbox .box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-left: 5%;
+  background: var(--color-two);
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+/* section 7 inner box 2 */
+.section7 .innerbox .box1 {
+  background: var(--color-one);
+}
+/*end section 7 inner box 2 */
+.section7 .innerbox h3 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.section7 .innerbox .box span {
+  color: var(--color-text);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.section7 .innerbox .box .innertext {
+  color: var(--color-text);
+  margin-bottom: 2px;
+  font-size: 28px;
+}
+.section7 .innerbox .box .innermoney {
+  font-size: 32px;
+}
+.section7 .innerbox p {
+  color: var(--color-text-three);
+  margin-bottom: 10px;
+}
+.section7 .innerbox del {
+  color: var(--color-text-three);
+  margin-bottom: 10px;
+}
+.section7 .innerbox .innerbutton {
+  margin-top: 20px;
+  background: var(--color-two);
+  text-decoration: none;
+  color: var(--color-text);
+  padding: 10px 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+/*end section 7 */
+
+/* button section 7 hover */
+.section7 .innerbox .innerbutton:hover {
+  background: var(--color-one);
+  transition: 0.5s;
+}
+/*end button section 7 hover */
+
+/* section7 itemtext */
+.section7 .itemtext {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.section7 .itemtext h2 {
+  font-weight: 450;
+  font-size: 28px;
+}
+.section7 .itemtext p {
+  font-size: 15px;
+  color: var(--color-text-three);
+  font-weight: 500;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*end section7 itemtext */
+
 /* media 992px */
 @media (max-width: 992px) {
   header .innermenu {
