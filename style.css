@@ -22,6 +22,9 @@ header .innermenu {
   display: flex;
   list-style-type: none;
 }
+header .innericonmobile{
+  display: none;
+}
 /* end header innermenu */
 
 /* header innertext */
@@ -738,9 +741,9 @@ footer .innertext {
   header .innermenu {
     display: none;
   }
-  header .innerlogo {
-    display: flex;
-    justify-content: space-between;
+  header .innericonmobile{
+    display: block;
+    cursor: pointer;
   }
 }
 /* end media 992px */
