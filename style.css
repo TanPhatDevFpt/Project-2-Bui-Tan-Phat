@@ -22,7 +22,7 @@ header .innermenu {
   display: flex;
   list-style-type: none;
 }
-header .innericonmobile{
+header .innericonmobile {
   display: none;
 }
 /* end header innermenu */
@@ -676,8 +676,8 @@ header .innertext:hover {
   transition: 0.5s;
 }
 /* button */
-.section10 button:hover{
-  background:var(--color-one);
+.section10 button:hover {
+  background: var(--color-one);
   transition: 0.5s;
 }
 /*end button */
@@ -741,9 +741,29 @@ footer .innertext {
   header .innermenu {
     display: none;
   }
-  header .innericonmobile{
+  header .innericonmobile {
     display: block;
     cursor: pointer;
   }
 }
 /* end media 992px */
+
+/* media 768px */
+@media (max-width: 768px) {
+  .section8 {
+    height: 117vh;
+  }
+  .section8:before {
+    height: 126vh;
+  }
+  .section8 .box1::after {
+    display: none;
+  }
+  .section5:before {
+    height: 135vh;
+  }
+  .section1 {
+    padding-top: 20%;
+  }
+}
+/*end media 768px */
